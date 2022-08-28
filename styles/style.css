@@ -65,8 +65,7 @@ body{
     color: white;
     background-color:#DD0000 ;
     border-radius: 5px; 
-    padding: 16px 25px; 
-    
+    padding: 16px 25px;  
 }
 .upcoming-form{
     font-family: 'Poppins', sans-serif;
@@ -75,13 +74,11 @@ body{
     width: 15%;
 }
 .upcoming-form input{
-   
     margin-top: 20px;
     font-size: 22px;
     padding: 13px;
     font-family:'Times New Roman', Times, serif;
-    border-radius: 10px;
-  
+    border-radius: 10px; 
 }
 .button{
     background-color: #DD0000;
@@ -97,7 +94,10 @@ body{
     width: 250px; 
     margin-top: 120px;
     margin-left: 170px;
-    margin-bottom: -50px;  
+    margin-bottom: -50px; 
+    margin-bottom: 200px; 
+    width: 20%;
+    float: left;
 }
 .all-group button{
     margin-top: 20px;
@@ -110,6 +110,59 @@ body{
     background-color: #DD0000;
     color: #ffff;
 }
-.info{
-    border: 1px solid lightgray;
+.border{
+
 }
+.info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: .5px solid lightgray;
+    margin: 24px;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+.image-of-football{
+    
+}
+.margin{
+    margin-left: 15px;
+}
+.margin button{
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 16px;
+    font-size: semibold;
+    margin-top: 15px;
+}
+.foot{
+    background-color: #161616;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 1200px;
+    padding-top: 100px;
+
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    
+   
+}
+hr{
+    border: .1px solid rgba(255, 255, 255, 0.1);
+    width: 80%;
+    margin-top: 40px;
+    
+}
+li a{
+    text-decoration: none;
+    color: #B9B9B9;
+    font-weight: 500;
+    margin-right: 40px;
+    font-size: 16px;
+    
+}
+ul{
+    margin-top: 50px;
+}
+
